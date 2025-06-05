@@ -1,0 +1,8 @@
+Total unique holders across both collections: 5902
+
+Merkle Root: 0xb6eb3d23f56dd34a1dec9817ddcd2ebbaf278681dda644e4d1a72b5d0770d556
+
+✅ Whitelist generated successfully!
+📁 Data saved to: whitelist-data.json
+🔍 Merkle Root: 0xb6eb3d23f56dd34a1dec9817ddcd2ebbaf278681dda644e4d1a72b5d0770d556
+👥 Total whitelisted addresses: 5902
