@@ -1484,15 +1484,15 @@
             console.log('Countdown updated:', timeString);
         }
  
-        // Initialize countdown when DOM is ready
         function initializeCountdown() {
-            return
- 
+            // Remove this line:
+            // return
+
             console.log('Initializing countdown...');
             
-            // Set target time to 12 hours from now
-            const now = new Date();
-            targetTime = now.getTime() + (12 * 60 * 60 * 1000); // 12 hours in milliseconds
+            // Set target time to 5pm EST on 6/11/2025
+            const targetDate = new Date('2025-06-11T17:00:00-05:00'); // 5pm EST
+            targetTime = targetDate.getTime();
             
             console.log('Target time set to:', new Date(targetTime));
             
@@ -1502,7 +1502,7 @@
             // Update every second
             countdownInterval = setInterval(updateCountdown, 1000);
         }
- 
+        
         // Wait for DOM to be ready
         if (document.readyState === 'loading') {
             document.addEventListener('DOMContentLoaded', initializeCountdown);
